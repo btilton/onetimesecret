@@ -12,14 +12,14 @@ When you send people sensitive info like passwords and private links via email o
 
 ## Dependencies
 
-* Any recent Linux (we use Amazon Linux 2)
+* Any recent Linux (I'm using CentOS 7)
 * Ruby 1.9.1+
 * Redis 2.6+
 
 ## Install Dependencies
 
     $ sudo yum install gcc gcc-c++ make libtool git ntp openssl-devel
-    $ sudo yum install readline-devel libevent-devel libyaml-devel zlib-devel
+    $ sudo yum install readline-devel libevent-devel libyaml-devel zlib-devel gmp-devel
     $ sudo yum install ruby ruby-devel redis
 
 ## Install One-Time Secret
