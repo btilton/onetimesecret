@@ -22,6 +22,8 @@ When you send people sensitive info like passwords and private links via email o
     $ sudo yum install readline-devel libevent-devel libyaml-devel zlib-devel gmp-devel
     $ sudo yum install ruby ruby-devel redis
 
+Recommend setting this up in a docker container, using the official ruby docker image is way easier than trying to build it
+
 Build ruby from source because rhel/centos only has ruby 2.0.0 (ancient!)
 https://www.ruby-lang.org/en/documentation/installation/#building-from-source
 https://www.ruby-lang.org/en/downloads/
