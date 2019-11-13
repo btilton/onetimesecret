@@ -30,7 +30,7 @@ When you send people sensitive info like passwords and private links via email o
 
     $ sudo su - ots
     $ gem install bundler -v '~>1'
-    $ git clone https://github.com/xadrnd/onetimesecret.git
+    $ git clone https://github.com/btilton/onetimesecret.git
     $ cd onetimesecret
     $ bundle install --frozen --deployment --without=dev
     $ bin/ots init
