@@ -13,7 +13,7 @@ When you send people sensitive info like passwords and private links via email o
 ## Dependencies
 
 * Any recent Linux (I'm using CentOS 7)
-* Ruby 1.9.1+
+* Ruby 2.4+
 * Redis 2.6+
 
 ## Install Dependencies
@@ -21,6 +21,10 @@ When you send people sensitive info like passwords and private links via email o
     $ sudo yum install gcc gcc-c++ make libtool git ntp openssl-devel
     $ sudo yum install readline-devel libevent-devel libyaml-devel zlib-devel gmp-devel
     $ sudo yum install ruby ruby-devel redis
+
+Build ruby from source because rhel/centos only has ruby 2.0.0 (ancient!)
+https://www.ruby-lang.org/en/documentation/installation/#building-from-source
+https://www.ruby-lang.org/en/downloads/
 
 ## Install One-Time Secret
 
